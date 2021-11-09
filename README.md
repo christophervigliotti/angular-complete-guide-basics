@@ -1,4 +1,8 @@
-# MyFirstApp
+# Wat
+
+Learning Angular via https://www.udemy.com/course/the-complete-guide-to-angular-2/ 
+
+# Generated Stuff
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
