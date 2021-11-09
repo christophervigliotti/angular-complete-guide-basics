@@ -1,6 +1,11 @@
-# Wat
+# Current
 
-Learning Angular via https://www.udemy.com/course/the-complete-guide-to-angular-2/ 
+* Resume learning at Section 1, No 9 "The Course Structure"
+
+# Background
+
+* I am learning Angular via Udemy.com https://www.udemy.com/course/the-complete-guide-to-angular-2/ 
+
 
 # Generated Stuff
 
