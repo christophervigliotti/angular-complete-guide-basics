@@ -1,6 +1,6 @@
-# Current
+# Notes
 
-* Resume learning at Section 1, No 9 "The Course Structure"
+Moving onto another project for section 1.12
 
 # Background
 
