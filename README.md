@@ -1,6 +1,6 @@
 # Notes
 
-Moving onto another project for section 1.12
+--
 
 # Background
 
