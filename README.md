@@ -1,6 +1,30 @@
 # Notes
 
---
+## What's Happening Here
+
+### app.component.html 
+- the root component for this app 
+
+### index.html 
+- a "normal html file" but with one exception...
+- <app-root>Loading...</app-root>
+
+### app.component.ts
+- @Component decarator...looks like I can change some default stuff here
+- selector value matches the app-root tag in index.html
+- when I change the tag and the selector value and refresh the page the content loads
+
+### Script Imports
+- view source of index.html... 
+- <script src="runtime.js" type="module"></script><script src="polyfills.js" type="module"></script><script src="styles.js" defer></script><script src="vendor.js" type="module"></script><script src="main.js" type="module"></script></body>
+
+### main.ts
+- first code executed is contained here
+- this line bootstraps (starts) our app by passing AppModule...platformBrowserDynamic().bootstrapModule(AppModule)
+
+### app.module.ts
+- bootstrap array lists components that should be known to Angular at the time that it analyizes our index.html file...bootstrap: [AppComponent]
+
 
 # Background
 
