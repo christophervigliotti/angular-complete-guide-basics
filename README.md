@@ -1,5 +1,13 @@
 # Notes
 
+## 22 - Working with Component Templates
+- 
+
+## 21 - Creating Components with the CLI & Nesting Components
+- ng generate component servers
+- or "ng g c servers"
+- more notes in servers.component.html
+
 ## 20
 - module loads into index.html...it's magic!
 
