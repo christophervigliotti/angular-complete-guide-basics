@@ -1,7 +1,10 @@
 # Notes
 
-## 22 - Working with Component Templates
+## 23 - Working with Component Styles
 - 
+
+## 22 - Working with Component Templates
+- notes in servers.component.ts
 
 ## 21 - Creating Components with the CLI & Nesting Components
 - ng generate component servers
