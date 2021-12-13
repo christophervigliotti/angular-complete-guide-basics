@@ -1,7 +1,7 @@
 # Notes
 
 ## 23 - Working with Component Styles
-- 
+- notes in app.components.ts
 
 ## 22 - Working with Component Templates
 - notes in servers.component.ts
