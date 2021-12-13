@@ -1,6 +1,19 @@
 # Notes
 
-## What's Happening Here
+## 19 - Understanding the Role of AppModule and Component Declaration
+
+## 18 - Creating A New Component
+- notes found in server.component.ts
+
+## 17
+
+### Components
+- a key feature in Angular
+- you build your app from composing components (which you build on your own)
+- ideas for how to compose headers...header, main nav, main body, sidebar, footer
+- each component has it's own template, html code and business logic
+
+## 16
 
 ### app.component.html 
 - the root component for this app 
@@ -25,10 +38,9 @@
 ### app.module.ts
 - bootstrap array lists components that should be known to Angular at the time that it analyizes our index.html file...bootstrap: [AppComponent]
 
-
 # Background
 
-* I am learning Angular via Udemy.com https://www.udemy.com/course/the-complete-guide-to-angular-2/ 
+- I am learning Angular via Udemy.com https://www.udemy.com/course/the-complete-guide-to-angular-2/ 
 
 
 # Generated Stuff
