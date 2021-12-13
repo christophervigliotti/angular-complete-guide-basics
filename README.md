@@ -1,4 +1,11 @@
+# Background
+- I am learning Angular via Udemy.com https://www.udemy.com/course/the-complete-guide-to-angular-2/ 
+- christopher@christophervigliotti.comt
+
 # Notes
+
+## 24 - Understanding the Component Selector
+- notes in app.components.ts?
 
 ## 23 - Working with Component Styles
 - notes in app.components.ts
@@ -53,12 +60,7 @@
 ### app.module.ts
 - bootstrap array lists components that should be known to Angular at the time that it analyizes our index.html file...bootstrap: [AppComponent]
 
-# Background
-
-- I am learning Angular via Udemy.com https://www.udemy.com/course/the-complete-guide-to-angular-2/ 
-
-
-# Generated Stuff
+# Generated Stuff...
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
