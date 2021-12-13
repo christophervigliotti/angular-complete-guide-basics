@@ -4,8 +4,8 @@
 
 # Notes
 
-## 24 - Understanding the Component Selector
-- notes in app.components.ts?
+## 24 - Fully Understanding the Component Selector
+- notes in servers.component.ts?
 
 ## 23 - Working with Component Styles
 - notes in app.components.ts
