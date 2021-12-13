@@ -1,5 +1,8 @@
 # Notes
 
+## 20
+- module loads into index.html...it's magic!
+
 ## 19 - Understanding the Role of AppModule and Component Declaration
 - notes found in app.modules.ts
 
