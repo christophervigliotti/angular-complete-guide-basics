@@ -1,6 +1,7 @@
 # Notes
 
 ## 19 - Understanding the Role of AppModule and Component Declaration
+- notes found in app.modules.ts
 
 ## 18 - Creating A New Component
 - notes found in server.component.ts
