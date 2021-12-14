@@ -4,6 +4,10 @@
 
 # Notes
 
+## 30 - Event Binding
+- https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6655820#overview
+- 
+
 ## 29 - Property Binding vs String Interpolation
 - https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6655814#overview
 - servers.component.*
