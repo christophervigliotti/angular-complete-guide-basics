@@ -6,5 +6,11 @@ import { Component } from "@angular/core"; // import the decorator
 }) // decorator
 
 export class ServerComponent{
-
+    /* 
+    (25) you can specify datatypes but Angular does not require it
+    serverId: number = 10;
+    serverStatus: string = 'offline';
+    */
+    serverId = 10;
+    serverStatus = 'offline';
 }

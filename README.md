@@ -4,8 +4,18 @@
 
 # Notes
 
+## 27 - String Interpolation
+- server.component.*
+
+## Assignment (see repo basics-assignment-1)
+
 ## 24 - Fully Understanding the Component Selector
-- notes in servers.component.ts?
+- 24.a component as an attribute
+- 24.b component as a class
+
+### files...
+- servers.component.ts
+- app.component.html
 
 ## 23 - Working with Component Styles
 - notes in app.components.ts
@@ -61,8 +71,6 @@
 - bootstrap array lists components that should be known to Angular at the time that it analyizes our index.html file...bootstrap: [AppComponent]
 
 # Generated Stuff...
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
 ## Development server
 
