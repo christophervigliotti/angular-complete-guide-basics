@@ -1,9 +1,8 @@
-<p>{{'Server'}} ID {{ serverId }} status is {{ serverStatus }}.</p>
+<p>{{'Server'}} ID {{ serverId }} status is {{ getServerStatus() }}.</p>
 <!--
 (27) string interpolation! 
 * has to resolve to a string in the end
-* these are all valid
-
+* these are all valid...
     {{'a hard-coded-string'}}
     {{ aVariable }}
     {{ aFunction() }}
