@@ -4,6 +4,12 @@
 
 # Notes
 
+## 29 - Property Binding vs String Interpolation
+- https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6655814#overview
+
+## 28 - Property Binding
+- servers.component.*
+
 ## 27 - String Interpolation
 - server.component.*
 

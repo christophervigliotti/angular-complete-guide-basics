@@ -1,9 +1,17 @@
-<fieldset>
-    <legend>this is servers.component.html</legend>
-    <app-server>app-server?</app-server>
-    <app-server>app-server?</app-server>
-    <!--
-        using the app-server component twice here 
-        (because components are reusable)
-    -->
-</fieldset>
+<!--
+(??) you can use (call) the same compone twice
+(because components are reusable)
+<app-server>app-server?</app-server>
+<app-server>app-server?</app-server>
+
+(28) square brackets indicates to angular that we are using property binding...we want to dynamically bind a property
+-->
+
+<button 
+    class="btn btn-primary" 
+    [disabled]="!allowNewServer"
+>
+    Add Server
+</button>
+<app-server>app-server?</app-server>
+<app-server>app-server?</app-server>
