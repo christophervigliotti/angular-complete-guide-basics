@@ -1,5 +1,5 @@
 <!--
-(??) you can use (call) the same compone twice
+(??) you can use (call) the same component twice
 (because components are reusable)
 <app-server>app-server?</app-server>
 <app-server>app-server?</app-server>
@@ -7,26 +7,42 @@
 (28) square brackets indicates to angular that we are using property binding...we want to dynamically bind a property
 -->
 
+<!--- 
+(30) 
+added >> click)="onCreateServer()"
+parenthesis indicates event binding
+-->
+<label>Server Name</label>
+<input 
+    type="text" 
+    class="form-control" 
+    (input)="onUpdateServerName($event)"
+    data-notes="(32)"
+/>
 <button 
     class="btn btn-primary" 
-    [disabled]="!allowNewServer"
+    [disabled]="!allowNewServer" 
+    (click)="onCreateServer()"
 >
     Add Server
 </button>
 
-<h3>allowNewServer</h3>
+<h3>onCreateServer()</h3>
+<p>{{serverCreationStatus}}</p>
+
+<h3>allowNewServer</h3> 
 <ul>
-    <li>
-        via String Interpolation: 
+    <li> 
+        Output via String Interpolation... 
         <span>{{ allowNewServer }}</span>
         <br />
-        Use case: when you want to output something (text) to the screen
+        <em>Use case: when you want to output something (text) to the screen</em>
     </li>
     <li>
-        via Property Binding:  
+        Output via Property Binding...
         <span [innerText]="allowNewServer"></span> 
         <br />
-        Use case: when you want to change elements / element properties
+        <em>Use case: when you want to change elements / element properties</em>
     </li>
 </ul> 
 
