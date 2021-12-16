@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-// import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component'; // (19) add serverComponent here...
 import { ServersComponent } from './servers/servers.component'; 
@@ -9,13 +9,11 @@ import { ServersComponent } from './servers/servers.component';
   declarations: [
     AppComponent, 
     ServerComponent, // (19)...and here
-    ServersComponent 
+    ServersComponent
   ],
   imports: [
-    BrowserModule
-    /*,
-    FormsModule
-    */
+    BrowserModule,
+    FormsModule // (34)
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -4,9 +4,22 @@
 
 # Notes
 
+## 35 - Combining all Forms of Databinding
+- directives
+
+## 34 - Two-Way Databinding
+- servers.component.*
+- app.module.ts
+
+## 33 - Important: FormsModulee is required for Two-Way Binding!
+import {FormsModule} from '@angular/forms';
+
+## 32 - Passing & Using Data with Event Binding
+- servers.component.*
+
 ## 30 - Event Binding
 - https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6655820#overview
-- 
+- servers.component.*
 
 ## 29 - Property Binding vs String Interpolation
 - https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6655814#overview

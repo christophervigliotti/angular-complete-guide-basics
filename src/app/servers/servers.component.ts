@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FormsModule} from '@angular/forms';
 
 @Component({
   // (22) replace templateUrl...
@@ -22,7 +23,7 @@ export class ServersComponent implements OnInit {
   // properties
   allowNewServer = false;
   serverCreationStatus = 'No server was created...sorry, Charlie!'; // (30)
-  serverName = '';
+  serverName = '(34) this is the default value of serverName ';
 
   //methods 
   constructor() {

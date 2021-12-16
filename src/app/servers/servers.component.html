@@ -9,14 +9,28 @@
 (30) 
 added >> click)="onCreateServer()"
 parenthesis indicates event binding
--->
+
+(34)...commenting out...
 <label>Server Name</label>
+(older)
 <input 
     type="text" 
     class="form-control" 
     (input)="onUpdateServerName($event)"
     data-notes="(32)"
 />
+<br />
+-->
+
+<label>Server Name</label>
+(34)
+<input 
+    type="text" 
+    class="form-control" 
+    [(ngModel)]="serverName"
+/>
+<br />
+
 <p>serverName: {{serverName}}</p>
 <button 
     class="btn btn-primary" 
