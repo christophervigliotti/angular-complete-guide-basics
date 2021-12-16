@@ -4,15 +4,20 @@
 
 # Notes
 
+## Assignment 2 - Practicing Databinding
+- https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/practice/268#notes
+
 ## 35 - Combining all Forms of Databinding
-- directives
+- servers.component.*
 
 ## 34 - Two-Way Databinding
 - servers.component.*
 - app.module.ts
 
 ## 33 - Important: FormsModulee is required for Two-Way Binding!
-import {FormsModule} from '@angular/forms';
+- changes to app.module.ts
+  - added import {FormsModule} from '@angular/forms';
+  - added to NgModule imports array: FormsModule
 
 ## 32 - Passing & Using Data with Event Binding
 - servers.component.*
@@ -31,7 +36,8 @@ import {FormsModule} from '@angular/forms';
 ## 27 - String Interpolation
 - server.component.*
 
-## Assignment (see repo basics-assignment-1)
+## Assignment 1: Practicing Components
+- (see repo basics-assignment-1)
 
 ## 24 - Fully Understanding the Component Selector
 - 24.a component as an attribute
