@@ -4,6 +4,39 @@
 
 # Notes
 
+## 41 - Applying CSS Classes Dynamically with ngClass
+- 
+
+## 40 - Styling Elements Dynamically with ngStyle
+- [ngStyle]="{color: getColor()}"
+
+## 39 - Enhancing ngIf with an Else Condition
+- #noServer is a "local reference"
+- *ngIf="serverCreated; else noServer"
+<p *ngIf="serverCreated; else noServer"> 
+    server was created, server name is <strong>{{ serverName }}</strong>
+</p>
+<ng-template #noServer>
+    <p>
+        server not created...waiting...for you to create a server...so please do it...
+    </p> 
+</ng-template>
+## 38 - Using igIf to output data conditionally
+- *ngIf="serverCreated"
+<p *ngIf="serverCreated"> 
+    server was created, server name is <strong>{{ serverName }}</strong>
+</p>
+
+## 37 - Directives
+directives are instructions in the DOM
+<p appTurnGreen>Receives a green bkg</p>
+@Directive({
+  selector:'[appTurnGreen]'
+})
+export class TurnGreenDirective{
+  ...
+}
+
 ## Assignment 2 - Practicing Databinding
 - https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/practice/268#notes
 

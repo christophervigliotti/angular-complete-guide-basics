@@ -24,16 +24,20 @@ export class ServersComponent implements OnInit {
   // properties
   allowNewServer = false;
   serverCreationStatus = 'No server was created...sorry, Charlie!'; // (30)
-  serverName = '(34) this is the default value of serverName ';
+  // serverName = '(34) this is the default value of serverName ';
+  serverName = '';
+  serverCreated = false;
 
   //methods 
   constructor() {
+    /*
     setTimeout(
       () => {
         this.allowNewServer = true;
       }, 
       2000
     );
+    */
    }
   ngOnInit(): void {
   }
@@ -41,11 +45,14 @@ export class ServersComponent implements OnInit {
   // (30)
   onCreateServer(){
     this.serverCreationStatus = 'Server "' + this.serverName + '" was created.';
+    this.serverCreated = true;
+    console.log(this.serverCreated);
   }
 
   // (32)
   onUpdateServerName(event: any){
     // console.log(event);
+    console.log(this.serverCreated);
     this.serverName = (<HTMLInputElement>event.target).value;
   }
 

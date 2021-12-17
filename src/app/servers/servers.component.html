@@ -34,18 +34,33 @@ parenthesis indicates event binding
 <!--
 (35)
 <p>serverName: {{serverName}}</p>
+
+(37)
+[disabled]="!allowNewServer" 
 -->
 <button 
     class="btn btn-primary" 
-    [disabled]="!allowNewServer" 
     (click)="onCreateServer()"
+    [disabled]="(serverName.length === 0)"
 >
     Add Server
 </button>
 
-<h3>onCreateServer()</h3>
-<p>serverCreationStatus: {{serverCreationStatus}}</p>
+<p *ngIf="serverCreated; else noServer"> 
+    server was created, server name is <strong>{{ serverName }}</strong>
+</p>
+<ng-template #noServer>
+    <p>
+        server not created...waiting...for you to create a server...so please do it...
+    </p> 
+</ng-template>
 
+<!-- 
+<h3>onCreateServer()</h3>
+(38)<p>serverCreationStatus: {{serverCreationStatus}}</p>
+-->
+
+<!--
 <h3>allowNewServer</h3> 
 <ul>
     <li> 
@@ -61,8 +76,7 @@ parenthesis indicates event binding
         <em>Use case: when you want to change elements / element properties</em>
     </li>
 </ul> 
-
 Don't mix Property Binding and String Interpolation.
-
-<app-server>app-server?< /app-server>
+-->
+<app-server>app-server?</app-server>
 <app-server>app-server?</app-server>
