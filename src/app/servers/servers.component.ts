@@ -19,6 +19,7 @@ import {FormsModule} from '@angular/forms';
   templateUrl: './servers.component.html',
   styleUrls: ['./servers.component.css']
 })
+
 export class ServersComponent implements OnInit {
   // properties
   allowNewServer = false;
@@ -39,7 +40,7 @@ export class ServersComponent implements OnInit {
 
   // (30)
   onCreateServer(){
-    this.serverCreationStatus = 'Server "' + this.serverName + '" was created. Nice work, yo.';
+    this.serverCreationStatus = 'Server "' + this.serverName + '" was created.';
   }
 
   // (32)
